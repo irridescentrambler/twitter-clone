@@ -9,6 +9,9 @@ gem "rails", "~> 7.0.3"
 # Mysql for database
 gem 'mysql2', '~> 0.5.2'
 
+# Devise for authentication
+gem 'devise', '~> 4.8', '>= 4.8.1'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
