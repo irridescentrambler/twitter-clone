@@ -33,6 +33,10 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 gem "redis", "~> 4.0"
 
+gem 'rubocop', '~> 1.54', require: false
+
+gem 'pry', '~> 0.13.1'
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -73,3 +77,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "graphql", "~> 1.9"
+gem "graphiql-rails", group: :development
